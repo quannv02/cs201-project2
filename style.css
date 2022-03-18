@@ -1,0 +1,210 @@
+@font-face{
+  font-family: Gilroy;
+  src: url(fonts/Gilroy-Regular.ttf);
+  font-weight: 100;
+  font-style: normal
+}
+
+@font-face{
+  font-family: Gilroy;
+  src: url(fonts/Gilroy-Medium.ttf);
+  font-weight: 500;
+  font-style: normal
+}
+
+@font-face{
+  font-family: Gilroy;
+  src: url(fonts/Gilroy-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal
+}
+
+@font-face{
+  font-family: Gilroy;
+  src: url(fonts/Gilroy-Bold.ttf);
+  font-weight: 700;
+  font-style: normal
+}
+
+@font-face{
+  font-family: Gilroy;
+  src: url(fonts/Gilroy-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal
+}
+
+@font-face{
+  font-family: Gilroy;
+  src: url(fonts/Gilroy-Black.ttf);
+  font-weight: 900;
+  font-style: normal
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Gilroy, sans-serif;
+  font-weight: 500px;
+  background-color: white;
+}
+
+.navbar-nav li a {
+    color: #424242 !important;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 0px;
+}
+
+.navbar-nav li{
+    padding: 0px 10px !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-brand img:first-child {
+  display: block;
+}
+
+.navbar-brand img:last-child {
+  display: none;
+}
+
+.navbar-nav>li:focus, .navbar-nav>li:hover {
+  background-color: #eee !important;
+  border-radius: 5px;
+}
+
+.nav-link button {
+  width: 110px;
+  height: 43px;
+  font-weight: 700;
+}
+
+.join-btn-1 a button:hover {
+  background-color: #0096d9 !important;
+}
+
+.join-btn-2 a button:hover {
+  background-color: #0096d9 !important;
+}
+
+.join-btn-1 {
+  display: none;
+}
+
+.join-btn-2 {
+  display: block;
+}
+
+.help-icon {
+  display: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  border: none;
+  background-color: #fafafa;
+}
+
+.dropdown-item {
+  padding: 10px 15px !important;
+  border-top: 1px solid #f5f5f5;
+  width: 180px
+}
+
+.speaker-icon {
+  display: block;
+}
+
+.hero {
+  height: 555px;
+}
+
+.services-btn, .signin-btn {
+  display: none;
+}
+
+.nav-right .dropdown a, .sign-in {
+  display: block;
+}
+
+.nav-right .services-btn, .nav-right .services-btn a, .nav-right .services-btn a button,
+.nav-right .signin-btn, .nav-right .signin-btn a, .nav-right .signin-btn a button {
+  width: 100%;
+  font-size: 16px;
+  height: 60px;
+}
+
+@media (max-width: 992px) {
+
+  .navbar-brand img:first-child {
+    display: none;
+  }
+
+  .navbar-brand img:last-child {
+    display: block;
+  }
+
+  .speaker-icon {
+    display: none;
+  }
+
+  .join-btn-1 {
+    display: block;
+    margin-left: 0 !important;
+  }
+
+  .join-btn-1 .nav-link {
+    padding: 5px;
+  }
+
+  .join-btn-2 {
+    display: none;
+  }
+
+  .help-icon {
+    display: block;
+  }
+
+  .navbar-nav>li:focus, .navbar-nav>li:hover {
+    background-color: #fff !important;
+    border-radius: 5px;
+  }
+
+  .nav-left li a {
+    font-size: 30px;
+  }
+
+  .nav-left li {
+    align-self: flex-start;
+  }
+
+  .nav-left li:first-child {
+    margin-top: 15px;
+  }
+
+  .nav-left .dropdown .dropdown-menu a {
+    font-size: 22px;
+    padding: 7.5px 0 !important;
+    color: #848484 !important;
+    background-color: white;
+    border-top: none;
+  }
+
+  .nav-left .dropdown .dropdown-menu {
+    margin-top: 0 !important;
+  }
+
+  .services-btn, .signin-btn {
+    display: block;
+  }
+
+  .sign-in, .nav-right .dropdown a {
+    display: none;
+  }
+}
