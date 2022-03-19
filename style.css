@@ -140,6 +140,31 @@ body {
   height: 60px;
 }
 
+.hero {
+  padding: 40px 0;
+}
+
+.title h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.description {
+  width: 385px;
+}
+
+.hero button:hover {
+  background-color: #0096d9 !important;
+}
+
+.hero button {
+   width: 167.5px;
+   height: 55px;
+   font-weight: 700;
+   color: white;
+   background-color: #00B0FF
+}
+
 @media (max-width: 992px) {
 
   .navbar-brand img:first-child {
@@ -206,5 +231,30 @@ body {
 
   .sign-in, .nav-right .dropdown a {
     display: none;
+  }
+
+  .hero {
+    height: 400px;
+    margin-bottom: 60px;
+  }
+
+  .title h1 {
+    font-size: 35px;
+  }
+
+  .title {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 835px;
+    margin: 0 15px 60px 15px;
+  }
+
+  .app-preview {
+    height: 52.5% !important;
+    background-position-x: center;
   }
 }
