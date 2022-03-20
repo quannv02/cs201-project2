@@ -1,0 +1,20 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 37.5" width="200"  height="37.5" >
+  <title aria-hidden="true">Asset 4</title>
+  <defs>
+      <style aria-hidden="true">.tp5-1{fill:#00b67a;}.tp5-2{fill:#fff;}</style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <rect class="tp5-1" width="37.5" height="37.5" fill="#00B67A"></rect>
+            <rect class="tp5-1" x="40.63" width="37.5" height="37.5" fill="#00B67A"></rect>
+            <rect class="tp5-1" x="81.25" width="37.5" height="37.5" fill="#00B67A"></rect>
+            <rect class="tp5-1" x="121.88" width="37.5" height="37.5" fill="#00B67A"></rect>
+            <rect class="tp5-1" x="162.5" width="37.5" height="37.5" fill="#00B67A"></rect>
+            <path class="tp5-2" d="M18.75,25.27l5.7-1.44,2.39,7.34Zm13.12-9.49h-10L18.75,6.33l-3.09,9.45h-10l8.13,5.86-3.09,9.45,8.13-5.86,5-3.59,8.08-5.86Z" fill="#FFFFFF"></path>
+            <path class="tp5-2" d="M59.38,25.27l5.7-1.44,2.38,7.34ZM72.5,15.78h-10L59.38,6.33l-3.09,9.45h-10l8.13,5.86-3.09,9.45,8.12-5.86,5-3.59,8.09-5.86Z" fill="#FFFFFF"></path>
+            <path class="tp5-2" d="M100,25.27l5.7-1.44,2.39,7.34Zm13.13-9.49h-10L100,6.33l-3.09,9.45h-10L95,21.64l-3.09,9.45L100,25.23l5-3.59,8.09-5.86Z" fill="#FFFFFF"></path>
+            <path class="tp5-2" d="M140.62,25.27l5.71-1.44,2.38,7.34Zm13.13-9.49h-10l-3.09-9.45-3.08,9.45h-10l8.12,5.86-3.08,9.45,8.12-5.86,5-3.59,8.09-5.86Z" fill="#FFFFFF"></path>
+            <path class="tp5-2" d="M181.25,25.27l5.7-1.44,2.39,7.34Zm13.13-9.49h-10l-3.09-9.45-3.09,9.45h-10l8.13,5.86-3.09,9.45,8.13-5.86,5-3.59,8.09-5.86Z" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

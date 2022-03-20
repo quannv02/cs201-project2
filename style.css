@@ -142,6 +142,7 @@ body {
 
 .hero {
   padding: 40px 0;
+  margin-bottom: 90px;
 }
 
 .title h1 {
@@ -149,12 +150,20 @@ body {
   text-align: center;
 }
 
-.description {
+.heo .description {
   width: 385px;
+}
+
+.description {
+  font-weight: 100;
+  text-align: center;
+  align-self: center;
+  line-height: 20.8px;
 }
 
 .hero button:hover {
   background-color: #0096d9 !important;
+  color: white;
 }
 
 .hero button {
@@ -163,6 +172,191 @@ body {
    font-weight: 700;
    color: white;
    background-color: #00B0FF
+}
+
+.row-2 .card {
+  width: 460px;
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+.laf .row:last-child .card {
+  width: 940px;
+}
+
+.row-2 .col-lg-6 {
+  padding: 0 10px;
+}
+
+.laf, .gftp, .lwpt {
+  margin-bottom: 90px;
+}
+
+.row-2 .col-lg-6:first-child {
+  justify-content: flex-end;
+}
+
+.row-2 .col-lg-6:last-child {
+  justify-content: flex-start;
+}
+
+.laf .row-2 .col-lg-6:first-child .card {
+  background-size: auto;
+  background-position-y: 245px;
+  background-position-x: center;
+}
+
+.laf .row:last-child .card {
+  background-position-x: right;
+  height: 400px;
+}
+
+.laf .row:last-child .card-text {
+  width: 445px;
+  margin: auto 0 auto 0;
+  align-self: flex-start;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  background-color: #F5F5F5;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.card-text {
+  text-align: center;
+  margin-top: 40px;
+  align-self: center;
+  color: #424242;
+}
+
+.card-text h4 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card-text .description {
+    width: 310px !important;
+    margin-bottom: 20px;
+}
+
+.card-text a {
+    color: #00B0FF;
+    border-bottom: 2px solid #00B0FF;
+    padding-bottom: 3px;
+    font-weight: 600;
+}
+
+.card-text a:hover {
+    text-decoration: none;
+    color: #0091EA;
+    border-bottom-color: #0091EA;
+}
+
+.laf h2, .gftp h2, .lwpt h2 {
+   font-weight: 600;
+   text-align: center;
+   color: #424242;
+}
+
+.lwpt .card {
+  width: 300px;
+  height: 400px;
+}
+
+.lwpt .col-lg-4 {
+  padding: 0 10px;
+  justify-content: center;
+}
+
+.lwpt .card-text {
+  padding: 30px 0;
+  margin: 0;
+}
+
+.lwpt .card-text h3 {
+  margin: 25px 0;
+}
+
+.lwpt .col-lg-4:first-child .card {
+  background-size: 295px;
+  background-position: center 235px;
+}
+
+.lwpt .col-lg-4:nth-child(2) .card {
+  background-size: 165px;
+  background-position: center 250px;
+}
+
+.lwpt .col-lg-4:last-child .card {
+  background-size: 260px;
+  background-position: center 255px;
+}
+
+.trust-pilot {
+  padding-top: 70px;
+  margin: 0 20px;
+  background-color: #F5F5F5;
+}
+
+.rating img {
+  width: 155px;
+}
+
+.review-card {
+  padding: 15px 15px 0 15px;
+  margin: 10px;
+  background-color: white;
+}
+
+.review-header {
+  margin-bottom: 10px;
+  color: #9E9E9E;
+}
+
+.name {
+  margin: 3px 0 0 15px;
+}
+
+.review-header {
+  font-weight: 600;
+}
+
+.date {
+  margin-top: 3px;
+}
+
+.review {
+    margin: 40px 0 80px;
+}
+
+.name span {
+  font-weight: 100;
+}
+
+.review-text {
+  width: 645px;
+  color: #424242;
+}
+
+.review-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review-text p {
+  font-size: 16px;
+  font-weight: 100;
 }
 
 @media (max-width: 992px) {
@@ -245,6 +439,84 @@ body {
   .title {
     margin-top: 0 !important;
   }
+
+  .description {
+    width: 285px;
+  }
+
+  .laf, .gftp, .lwpt {
+    margin-bottom: 60px;
+  }
+
+  .row-2 .card {
+    width: 670px;
+  }
+
+  .row-2 .col-lg-6 {
+    justify-content: center !important;
+  }
+
+  .row-2 .col-lg-6:first-child .card {
+    background-position-y: bottom !important;
+  }
+
+  .row-2 .col-lg-6:last-child .card {
+    background-size: auto;
+    background-position-x: center;
+  }
+
+  .laf .row:last-child .card {
+    width: 670px;
+    background-position-x: 300px;
+  }
+
+  .laf .row:last-child .card-text {
+    width: 330px;
+  }
+
+  .laf .row:last-child .description {
+    width: 255px !important;
+  }
+
+  .gftp .col-lg-6:first-child .card {
+    margin-bottom: 20px !important;
+  }
+
+  .lwpt .col-lg-4:first-child .card {
+    margin-bottom: 20px !important;
+  }
+
+  .lwpt .col-lg-4:nth-child(2) .card {
+    margin-bottom: 20px !important;
+  }
+
+  .lwpt .card {
+    width: 670px;
+    height: 255px;
+  }
+
+  .lwpt .col-lg-4:first-child .card {
+    background-size: 416px;
+    background-position: right 35px;
+  }
+
+  .lwpt .col-lg-4:nth-child(2) .card {
+    background-size: 220px;
+    background-position: 350px 60px;
+  }
+
+  .lwpt .col-lg-4:last-child .card {
+    background-size: 300px;
+    background-position: 315px 85px;
+  }
+
+  .lwpt .card-text {
+    margin-right: 370px;
+  }
+
+  .review-text {
+    width: 520px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -256,5 +528,71 @@ body {
   .app-preview {
     height: 52.5% !important;
     background-position-x: center;
+  }
+
+  .laf .card {
+    height: 500px !important;
+  }
+
+  .laf .row:last-child .card-text {
+    margin: 0 auto 0 auto !important;
+    padding-top: 40px;
+  }
+
+  .laf .row:last-child .card {
+    background-size: 240px;
+    background-position: 100% 100%;
+  }
+
+  .laf .row:last-child .description {
+    width: 310px !important;
+  }
+
+  .lwpt .card {
+    height: 490px;
+  }
+
+  .lwpt .card-text {
+    margin: 0;
+    padding: 40px 0;
+  }
+
+  .lwpt .col-lg-4:first-child .card {
+    background-size: 370px;
+    background-position: center 245px;
+  }
+
+  .lwpt .col-lg-4:nth-child(2) .card {
+    background-size: 215px;
+    background-position: center 260px;
+  }
+
+  .lwpt .col-lg-4:last-child .card {
+    background-size: 303px;
+    background-position: center 295px;
+  }
+
+  .trust-pilot {
+    padding-top: 50px;
+  }
+
+  .review-text {
+    width: 300px;
+  }
+
+  .review-card {
+    padding: 25px 25px 0 25px;
+  }
+
+  .rating img {
+    width: 94px;
+  }
+
+  .rating {
+    flex-direction: column;
+  }
+
+  .name {
+    margin: 5px 0 0 0;
   }
 }
